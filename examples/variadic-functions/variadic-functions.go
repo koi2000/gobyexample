@@ -10,6 +10,9 @@ import "fmt"
 func sum(nums ...int) {
 	fmt.Print(nums, " ")
 	total := 0
+	
+	// 在这个函数中，`nums`的类型相当于`[]int`。
+	// 我们可以调用'len(nums)'，用'range'迭代它，等等。
 	for _, num := range nums {
 		total += num
 	}
