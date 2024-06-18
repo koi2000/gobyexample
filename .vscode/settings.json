@@ -1,0 +1,5 @@
+{
+    "go.gopath": "/home/koi/course/gobyexample",
+    // "go.goroot": "/usr/local/go",
+    "go.toolsManagement.go": "1.17"
+}
